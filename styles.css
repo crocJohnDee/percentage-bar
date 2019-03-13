@@ -1,15 +1,26 @@
-#percentage-bar {
+.percentage-bar {
   height: 50px;
-  width: 100%;
-  margin: 100px auto;
+  width: 500px;
+  margin: 20px auto;
   border-radius: 50px;
   background-image: linear-gradient(to right, #f07136 50%, rgb(40, 40, 40) 50%);
   background-size: 200% 100%;
   background-position: right;
 }
 
-#percentage-bar:hover {
+.percentage-bar:hover {
   transition: all 0.4s ease-in;
   background-position: left;
-  background-size: 190% 100%;
+}
+
+#bar1:hover {
+  background-size: 100% 100%;
+}
+
+#bar2:hover {
+  background-size: 160% 100%;
+}
+
+#bar3:hover {
+  background-size: 130% 100%;
 }
